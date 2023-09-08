@@ -1,0 +1,67 @@
+.notebook {
+    background: #fff;
+    margin: 0 auto -100px;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 0 6px 3px #0000001a;
+    transform: rotate(-2deg);
+    background-image: linear-gradient(90deg,#1f88bd,2px,transparent,2px,transparent),
+                        linear-gradient(0,#61aed7,1px,transparent,2px,transparent);
+    background-position: 4rem 0,0 5px;
+    background-size: 100% 3rem;
+    padding-left: 6rem;
+    z-index: 4;
+    position: relative;
+}
+
+img{
+    border: 2px solid;
+    border-radius: 50%;
+    height: 150px;
+    
+}
+
+
+p {
+    font-family: "Sofia", sans-serif;
+    font-family: 'Playball', cursive;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+
+h1{
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    font-family: 'Playball', cursive;
+    /* font-family: 'Sofia Sans Semi Condensed', sans-serif; */
+
+
+    /* font-family:  "Audiowide", sans-serif; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1rem;
+    margin-bottom: 4rem;
+}
+
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+body {
+    font-size: 1.6rem;
+    color: #1c1c1c;
+}
+html {
+    font-size: 10px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
